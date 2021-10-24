@@ -4,18 +4,18 @@ The main purpose of this project is to automate the maintenance of a stock sprea
 
 ## Description
 
-Given s spreadsheet used to maintain a person's stock holdings, what is the easiest method to :
-1. updates the spreadsheet with up to date stock prices;
+Given a spreadsheet used to maintain a person's stock holdings, what is the easiest method to :
+1. update the spreadsheet with up to date stock prices;
 2. calculate the total value of the portfolio.
 
 We want to develop a script that reads in a spreadsheet file (*.xlsx), with each row a stock holding.
-The second column is the ticker symbol. The third column is the stock price.
+The second column is the ticker symbol. The fourth column is the stock price.
 
 The script uses the yahoo finance api to find the current stock price.
 It updates column three on each stock row with that current price.
 
 The updated spreadsheet is saved in the same directory.
-The new file name has the current date to the file name.
+The new spreadsheet file name appends the current date to the file name.
 
 
 ## Getting Started
@@ -23,7 +23,7 @@ The new file name has the current date to the file name.
 To get started, examine these resources :
 
 1. examine the sample stock spreadsheet;
-2. confirm you enivronment hhas the required dependencies;
+2. confirm your environment has the required dependencies;
 3. execute stockUpdater.py script passing a stock spreadsheet as a parameter 
 
 ### Dependencies
@@ -37,6 +37,8 @@ See resources.txt for details
 
 Contributors names and contact info
 
+
+Name                email
 Roland DePratti     roland.depratti@comcast.net
 
 ## Version History
